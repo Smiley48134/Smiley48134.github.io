@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About | Liam Murphy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; line-height: 1.6; }
+        header { background: #1e3a8a; color: white; padding: 20px 40px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+        header h1 { font-size: 28px; }
+        nav { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; }
+        nav a { color: white; background: #3b82f6; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background 0.3s; }
+        nav a:hover { background: #2563eb; }
+        .container { max-width: 960px; margin: 40px auto; padding: 0 20px; }
+        h2 { font-size: 32px; margin-bottom: 20px; }
+        h3 { margin-top: 40px; }
+        ul { margin-top: 10px; padding-left: 20px; }
+        footer { background: #1e3a8a; color: white; text-align: center; padding: 20px; margin-top: 60px; }
+        @media (max-width: 600px) {
+            header { flex-direction: column; align-items: flex-start; }
+            nav { flex-direction: column; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Liam Murphy</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>About Me</h2>
+        <p>I'm a web developer passionate about crafting clean user interfaces and seamless user experiences. My work is mainly in projects for myself but many are also applications that can be found on this very website. Additionally my main coding language is python</p>
+
+        <h3>Skills & Tools</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript, python</li>
+            <li>React, Node.js, Express</li>
+            <li>Git & GitHub, VS Code, Figma</li>
+            <li>Responsive Design & Accessibility</li>
+        </ul>
+    </main>
+
+    <footer>
+        © 2025 Liam Murphy. All rights reserved.
+    </footer>
+</body>
+</html>
